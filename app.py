@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="BharatGuru by ", layout="wide")
+st.set_page_config(page_title="BharatGuru  ", layout="wide")
 st.title("🚀 BharatGuru")
 st.markdown("### FINAL 16.0 | Syllabus + PYQ + Marking Scheme As Per Exam | Presentation Ready")
 
