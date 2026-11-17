@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.set_page_config(page_title="BharatGuru by ", layout="wide")
-st.title("🚀 BharatGuru - By R. Shruthi")
+st.title("🚀 BharatGuru")
 st.markdown("### FINAL 16.0 | Syllabus + PYQ + Marking Scheme As Per Exam | Presentation Ready")
 
 # CHECK API
@@ -131,5 +131,5 @@ if st.button("🚀 GET ANSWER + PYQ + MARKING SCHEME", type="primary", use_conta
         st.error(f"Error: {e}")
 
 st.markdown("---")
-st.markdown(" 👩‍💻 Made by R. Shruthi | Founder - BharatGuru |")
+st.caption(" 👩‍💻 Made by R. Shruthi | Founder - BharatGuru |")
 st.caption("Syllabus + PYQ + Marking Scheme | As Per Selected Exam | UPSC | Railway | Banking | KPSC | NDA | PUC | 16 Languages")
